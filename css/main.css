@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #ADD8E6;
+}
+
+
+.first{
+	background: #ccc url(../img/v2oyager.jpg);
+	background-size: 100% auto;
+}
+.hhh {
+	margin-top: 55px;
+	margin-left: 2%;
+	margin-right: 2%;
+  	font-family: 'Comfortaa', cursive;
+  	text-align:  center;
+  	color:  #0b07f0;
+ 	-webkit-text-stroke: 1px #ADD8E6;
+}
+
+
+a {
+	color: #0000FF;
+	text-decoration: none;
+	transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+}
+a:hover {
+	color: #ff0313;
+	text-decoration: none;
+	transition: all.5s ease;
+	-ms-transition: all.5s ease;
+	-o-transition: all.5s ease;
+	-moz-transition: all.5s ease;
+	-webkit-transition: all.5s ease;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+	-moz-transition: all.3s ease-out;
+	-o-transition: all.3s ease-out;
+	-webkit-transition: all.3s ease-out;
+}
+
+hr {
+  	display: block;
+  	height: 1px;
+  	border: 0;
+  	border-top: 1px solid #ccc;
+  	margin: 1em 0;
+  	padding: 0;
+}
+
+header {
+	float: left;
+	background-color: #0c5ff7;
+	width: 99.4%;
+	padding: .3%;
+	border-bottom: 5px solid #341ed9;
+	font-family: 'Roboto Slab', serif;
+}
+
+header>div#logo>img {
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+header>div#logo>img {
+	margin-left: 15%;
+}
+/* adaptability (адаптивность) */
+@media (min-width: 999px) {
+#logo {
+	float: left;
+	width: 30%;
+}
+#reg_auth {
+	float: right;
+	width: 30%
+}
+}
+@media (max-width: 998px) {
+#logo {
+	float: left;
+	width: 30%;
+}
+#reg_auth {
+	float: right;
+	width: 50%
+}
+}
+
+
+#reg_auth>a {
+	color: white;
+}
+
+#reg_auth>a {
+	float: right;
+	
+	margin-right: 3%;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: #341ed9;
+	text-shadow: #0acef5 0 0 2px;
+}
+
+a.butt {
+	float: right;
+	margin-right: 3%;
+	color: #FFFAFA;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: #0c98f5;
+	text-shadow: #0cf5ed 0 0 2px;
+	border-bottom: 6px solid #0c69e5;
+	font-family: 'Roboto Slab', serif;
+}
+
+a.butt:hover {
+	border-bottom: 2px solid #0c69e5;
+	margin-top: 7px;
+}
+
+a.butt:active {
+	border-bottom: 0;
+	margin-top: 9px;
+}
+
+
+#reg_auth {
+	font-size: 1.1em;
+	padding-top: 10px;
+}
+
+#reg_auth>a:hover {
+	color: #00008B;
+}
+
+.second{
+	text-indent: 2%;
+	font-family: 'Exo 2', sans-serif;
+	color:  #ADD8E6;
+	padding: 5%;
+}
+
+.s2 {
+	text-indent: 2%;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.s3 {
+	float: left; /* Обтекание картинки по левому краю */
+    padding-right: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+}
+
+/* меню сайта*/
+nav {
+	background-color: white;
+	width: 100%;
+	padding: 7px 0.3%;
+	float: left;
+	border-bottom: 2px solid silver;
+}
+
+nav>a {
+	color: #0303ff;
+	font-size: 1.1em;
+	margin-left: 5%;
+}
+
+nav>a:hover {
+	color: #03bcff;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	opacity: 0.95;
+	padding: 3px;
+}
+
+
+.fixed:hover {
+	opacity: 1;
+}
+
+/* футер сайта*/
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+#content {
+	flex: 1 0 auto;
+}
+
+footer {
+	float: left;
+	background-color: #0c5ff7;
+	width: 98%;
+	padding: 1%;
+	border-top: 5px solid #341ed9;
+	font-family: 'Roboto Slab', serif;
+}
+
+#site_name {
+	margin-right: 5%;
+	color: 	#FFFAFA;
+	float: right;
+}
+
+#site_name>span {
+	font-family: 'Yeseva One', cursive;
+}
+
+@media (max-width: 1080px) {
+	#clear {
+		clear: both;
+	}
+}
+
+#footer_menu {
+	font-size: 1.1em;
+}
+
+#footer_menu>a {
+	margin-left: 2%;
+	color: #FFFAFA;
+}
+
+#footer_menu>a:hover, #rights>a:hover {
+	border-bottom: 1px solid silver;
+	color: #aeaeae;
+}
+
+#rights {
+	float: left;
+	margin-left: 7%;
+	font-size: 1em;
+	margin-top: 20px;
+}
+#rights>a {
+	color: #FFFAFA;
+}
+
+#zzak {
+	width: 75%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 3%;
+}
+
+a.name {
+	font-weight: lighter;
+	font-size: 1.1em;
+	font-family: 'Roboto Slab', serif;
+	border-bottom: 2px solid #341ed9;
+	float: left;
+	padding: 0px 3px;
+}
+
+h4 {
+	font-family: 'Exo 2', sans-serif;
+	color: #341ed9;
+}
+
+form {
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.inp {
+	border-radius: 50px;
+	border: 1px solid #341ed9;
+	font-size: 0.8em;
+	padding: 5px 5%;
+	margin-bottom: 10px;
+	background-color: #F0FFF0;
+	font-family: 'Exo 2', sans-serif;
+}
+
+textarea {
+	border-radius: 5px;
+	border: 1px solid #341ed9;
+	font-size: 0.8em;
+	padding: 10px;
+	background-color: #F0FFF0;
+	font-family: 'Exo 2', sans-serif;
+	resize: vertical;
+	min-width: 300px;
+	max-height: 200px;
+	min-height: 50px;
+}

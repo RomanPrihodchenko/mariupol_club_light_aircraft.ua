@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} ^www.mariupol_club_light_aircraft.ua
+	RewriteRule (.*) http://mariupol_club_light_aircraft.ua/$1 [R=301,L]
+	RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+	RewriteRule ^index\.php$ http://mariupol_club_light_aircraft.ua/ [R=301,L]
+</IfModule>
+
+ServerSignature Off
+AddDefaultCharset UTF-8
+
+RewriteRule ^midl?$ midl.php [NC,L]
+RewriteRule ^zak?$ zak.php [NC,L]
